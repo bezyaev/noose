@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.07 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="desktopDesign" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="mainPage" sketch:type="MSArtboardGroup" transform="translate(-931.000000, -632.000000)">
+            <g id="sections/sectionAdvantages" sketch:type="MSLayerGroup" transform="translate(0.000000, 448.000000)">
+                <g id="sectionContent" transform="translate(606.000000, 102.000000)">
+                    <g id="blocks/advantage" transform="translate(74.000000, 78.000000)">
+                        <g id="icon" transform="translate(259.000000, 10.000000)">
+                            <circle id="circle" fill="#FFC600" filter="url(#filter-1)" sketch:type="MSShapeGroup" cx="21" cy="21" r="21"></circle>
+                            <text sketch:type="MSTextLayer" font-family="Pe-icon-7-stroke" font-size="18" font-weight="normal" sketch:alignment="middle" fill="#202020">
+                                <tspan x="12.7558594" y="29"></tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

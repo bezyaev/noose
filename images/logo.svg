@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="50px" height="26px" viewBox="0 0 50 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: bin/sketchtool 1.4 (305) - http://www.bohemiancoding.com/sketch -->
+    <title>logotypeWhite</title>
+    <desc>Created with bin/sketchtool.</desc>
+    <defs></defs>
+    <g id="desktopDesign" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="mainPage" sketch:type="MSArtboardGroup" transform="translate(-935.000000, -3291.000000)" stroke-linecap="round" stroke="#FFFFFF">
+            <g id="sections/sectionFooter" sketch:type="MSLayerGroup" transform="translate(-7.000000, 3036.000000)">
+                <g id="endFooter" transform="translate(472.000000, 256.000000)" sketch:type="MSShapeGroup">
+                    <g id="logotypeWhite" transform="translate(471.000000, 0.000000)">
+                        <path d="M28.5772782,21.615894 C30.5750341,23.103713 33.0636422,24 35.7615894,24 C42.3451162,24 47.6821192,18.662997 47.6821192,12.0794702 C47.6821192,5.49594338 42.3451162,0.158940397 35.7615894,0.158940397 C31.8674159,0.158940397 28.4093704,2.02622629 26.2339866,4.92715232 C24.7316458,6.90877107 23.8410596,9.39011686 23.8410596,12.0794702" id="right"></path>
+                        <path d="M19.0377939,2.54304636 C17.0515304,1.03534003 14.5883772,0.158940397 11.9205298,0.158940397 C5.33700298,0.158940397 -8.11712728e-16,5.49594338 -5.32907052e-15,12.0794702 C-5.32907052e-15,18.662997 5.33700298,24 11.9205298,24 C15.8147033,24 19.2727488,22.1327141 21.4481326,19.2317881 C22.9504734,17.2501693 23.8410596,14.7688235 23.8410596,12.0794702" id="left"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
