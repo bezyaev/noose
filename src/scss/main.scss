@@ -146,11 +146,10 @@ body {
 	-webkit-background-size: 52px 30px;
 	background-size: 52px 30px;
 	display: inline-block;
-	margin-top: 3px;
 	height: 30px;
 	width: 52px;
 	position: absolute;
-	top: 12px;
+	top: 10px;
 	margin-left: -16px;
 }
 
@@ -482,6 +481,19 @@ section#n44 {
 	}
 }
 
+.wrp-btns-m {
+	.btn-usual {
+		margin-right: auto !important;
+		margin-left: auto;
+		display: block;
+		margin-bottom: 15px;
+	}
+	.btn-view-other {
+		margin-left: 0px;
+		display: block;
+	}
+}
+
 section#n404 {
 	height: 600px;
 	width: 100%;
@@ -806,7 +818,8 @@ section#p2 {
 }
 
 section#p22 {
-	height: 398px;
+	height: auto;
+	margin-bottom: 100px;
 	position: relative;
 	z-index: 100;
 	color: $white;
@@ -830,9 +843,10 @@ section#p22 {
 		padding: 6px 15px;
 	}
 	.projects {
+		font-size: 0;
 		width: 100%;
 		background: $white;
-		height: 180px;
+		height: auto;
 		margin-top: 55px;
 		border-radius: 5px;
 	}
@@ -885,7 +899,7 @@ section#se11 {
 section#se2 {
 	background: $darkGray;
 	@include transform-skew-plus();
-	height: 1529px;
+	height: 1600px;
 	z-index: 41;
 	top: 123px;
 }
@@ -929,18 +943,18 @@ section#se22 {
 		padding: 7px 20px;
 		display: inline-block;
 		float: right;
+		margin-top: 14px;
 	}
 	.reverse {
 		margin-top: 90px;
 		.bold, .light, .mn {
 			text-align: right;
 		}
-		.btn-order {
-			width: auto;
-			margin-right: 0px;
+		.btn-usual {
+			margin-right: 0px !important;
 		}
 		.btn-view-other {
-			margin-right: 50px;
+			margin-right: 46px;
 		}
 	}
 	.t {
@@ -950,19 +964,7 @@ section#se22 {
 		display: block;
 		background-repeat: no-repeat;
 		height: 410px;
-		background-image: url('../images/iPhone.png');
-	}
-	.iphone-gradient {
-		width: 100%;
-		height: 410px;
-		background: -webkit-linear-gradient(bottom,#202020 0%,rgba(255,255,255,0)20%);
-		background: -moz-linear-gradient(bottom,#202020 0%,rgba(255,255,255,0)20%);
-		background: -ms-linear-gradient(bottom,#202020 0%,rgba(255,255,255,0)20%);
-		background: -o-linear-gradient(bottom,#202020 0%,rgba(255,255,255,0)20%);
-		background: linear-gradient(bottom,#202020 0%,rgba(255,255,255,0)20%);
-		display: block;
-		position: absolute;
-		top: 0;
+		background-image: url('../images/services/iPhone.png');
 	}
 }
 
@@ -977,16 +979,10 @@ section#se22 {
 	margin-bottom: 20px;
 }
 
-.btns-m-2 {
-	margin-left: auto !important;
-	margin-right: auto !important;
-	display: block !important;
-	position: relative !important;
-	width: 130px !important;
-}
+
 
 .price-wrp {
-	position: absolute;
+	//position: absolute;
 	width: 100%;
 	top: -33px;
 	.price-m {
@@ -1033,7 +1029,6 @@ section#se22 {
 
 .price-wrp-rev {
 	text-align: right;
-	top: 560px !important;
 
 	.price-m-trian {
 		-webkit-transform: skewX(16.5deg) !important;
@@ -1121,6 +1116,28 @@ section#a22 {
 	}
 }
 
+.btns-m-2 {
+	margin-left: auto !important;
+	margin-right: auto !important;
+	display: block !important;
+	position: relative !important;
+	width: 130px !important;
+}
+
+.img-wrp {
+	position: absolute;
+	z-index: -5;
+	opacity: 0.2;
+}
+
+.piece {
+	display: inline-block;
+	img {
+		width: 285px;
+		height: 180px;
+	}
+}
+
 .ma22 {
 	height: 525px !important;
 }
@@ -1153,5 +1170,5 @@ section#a22 {
 }
 
 .ma606 {
-	top: 2583px!important
+	top: 2607px !important;
 }
